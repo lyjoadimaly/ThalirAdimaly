@@ -1,0 +1,28 @@
+/* Normal and important  */
+body{
+    margin: 0%;
+}
+.row{
+            margin-left: 0% !important;
+    }
+/* //Normal and important  */
+/* Header */
+    .bg-header{
+        background: linear-gradient(90deg, rgba(228,185,40,1) 0%, rgba(223,163,30,1) 41%, rgba(29,161,86,1) 100%);
+        position:fixed;
+        width: 100%;
+        z-index: 1;
+    }
+    .nav-link{
+        color: #fff !important;
+        font-weight: bold !important;
+    }
+    .main-text{
+        font-weight: bolder;
+        color: #fff;
+        font-family: serif;
+    }
+    
+    
+
+/* //Header */
