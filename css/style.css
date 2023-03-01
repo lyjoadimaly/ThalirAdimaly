@@ -2,9 +2,20 @@
 body{
     margin: 0%;
 }
-.row{
-            margin-left: 0% !important;
-    }
+
+    
+.mt-6{
+    margin-top: 0.1em;
+}
+.mt-7{
+    margin-top: 0.3em;
+}
+.mt-8{
+    margin-top: 7em;
+}
+.mt-9{
+    margin-top:  6em !important;
+}        
 /* //Normal and important  */
 /* Header */
     .bg-header{
@@ -20,16 +31,19 @@ body{
     .main-text{
         font-weight: bolder;
         color: #fff;
-        font-family: serif;
+        
     }
     
-    .hi:hover{
+    .First-btn:hover{
         color: #1da156 !important;
     }
-    .he:hover{
-        color:  #ffcd23 !important;
+    .Second-btn:hover{
+        color:  #b4be35 !important;
     }
-   
+   .nav-toggle{
+        margin-top: 0.9em !important;
+    }
     
-
+    
+    
 /* //Header */
