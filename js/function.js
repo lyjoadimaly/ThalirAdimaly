@@ -2,7 +2,7 @@ const changeTextBtn = document.querySelector('.changeText') ;
 const readTextBtn = document.querySelector('.readText') ;
 const code = document.querySelector('#code') ;
 const input = document.querySelector('.userInput input') ;
-const submitBtn = document.querySelector('.btn') ;
+const submitBtn = document.querySelector('.btner') ;
 
 changeTextBtn.addEventListener('click' , () => {
     code.textContent = createCaptcha() ;
@@ -24,30 +24,44 @@ function createCaptcha()  {
     let code = a + b + c + d + e + f + g ;
     return code ;
 }
- 
-const queryString = window.location.search;
 
 
-
-const urlParams = new URLSearchParams(queryString);
-
-const page_type = urlParams.get( 'fname','mobile','email',"comment")
-
-console.log(queryString);
 submitBtn.addEventListener('click',() => {
     let val = input.value ;
     if(val === '') {
         alert('Please Enter Security code') ;
     }
-    else if(val === code.textContent) {
-        alert('Valid Security code') ;
-    }
-    else {
-        alert('invalid Security code !') ;
-    }
+    
+   
 }) 
 readTextBtn.addEventListener('click', () => {
+    console.log("cliked")
     let text = code.textContent ;
-    responsiveVoice.speak(text,{rate:0.8});
+    responsiveVoice.speak(text);
 })
+let val = input.value ;
+console.log(val)
+console.log(code.textContent)
+if(val === code.textContent){
+    function sendEmail(){
+        console.log("clicked")
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "detailssender1@gmail.com",
+            Password : "BA2D38C48A12A6F94B5CBC36287150CEA542",
+            port:2525,
+            From: 'detailssender1@gmail.com',
+            To : 'abhijohnv1@gmail.com',
+            Subject : "New customire details from lsoft web",
+            Body : "Name: "+document.getElementById("fname").value+document.getElementById("lname").value
+            +"<br>Email: "+document.getElementById("email").value
+            +"<br>Mobile: "+document.getElementById("mobile").value
+            +"<br>Comment: "+document.getElementById("comment").value
+        }).then(
+          message => alert("Submit Successfully")
+        );
+    }
+}else {
+    alert('invalid Security code !') ;
+}
 
