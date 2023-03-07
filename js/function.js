@@ -40,8 +40,8 @@ submitBtn.addEventListener('click', () => {
                 Password: "BA2D38C48A12A6F94B5CBC36287150CEA542",
                 port: 2525,
                 From: 'detailssender1@gmail.com',
-                To: 'abhijohnv1@gmail.com',
-                Subject: "New customire details from lsoft web",
+                To: 'thalirnatural@gmail.com',
+                Subject: "Web Response",
                 Body: "Name: " + document.getElementById("fname").value + document.getElementById("lname").value
                     + "<br>Email: " + document.getElementById("email").value
                     + "<br>Mobile: " + document.getElementById("mobile").value
