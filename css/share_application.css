@@ -1,0 +1,124 @@
+/* Normal && Important */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.container{
+    max-width: 831px !important;
+}
+.mt-7{
+    margin-top: 1.9em !important;
+}
+.row{
+    width: 100% !important;
+    margin-left: 0% !important;
+}
+
+/* //Normal && Important */
+/* Section -1 */
+.main-border {
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgba(255, 205, 35, 1) 0%, rgba(223, 163, 30, 1) 41%, rgba(29, 161, 86, 1)) border-box;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+
+.fs_maintext {
+    font-size: 21px;
+}
+
+.hr-main {
+    border: rgb(0, 0, 0)solid 1px;
+    opacity: unset;
+}
+
+.Photo-border {
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgba(255, 205, 35, 1) 0%, rgba(223, 163, 30, 1) 41%, rgba(29, 161, 86, 1)) border-box;
+    width: 90px;
+    height: 100px;
+    border:2px solid transparent;
+}
+
+.User-image {
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-left: 0.2em;
+    padding-right: 0.3em;
+    width: 88px;
+    height: 98px;
+}
+
+.Add-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 4em;
+    margin-top: -2em;
+    margin-left: 4em;
+}
+.form_group-h5{
+   width: 10em !important; 
+   float: left; 
+   
+}
+.form_group-h5-1{
+    width: 4em !important; 
+    float: left;
+    
+ }
+ .form_group-input-h5-1{
+    width: 11.8% !important;
+    float: left;
+    height: 2em;
+
+ }
+ .form_group-h5-2{
+    width: 8em !important;
+ }
+ .form_group-input-h5-2{
+    width: 11.8% !important;
+    float: left;
+    height: 2em;
+
+ }
+.form_group-sm{
+    width: 2em !important;
+    float: left;
+}
+.form_group-input{
+   width: 17em !important;
+   float: left;
+   height: 2em;
+}
+.radio-btn{
+    width: 18px;
+    height: 1em;
+}
+
+.radio-width{
+    width: 19em !important;
+    margin-top: 1.9em !important;
+}
+.td-width{
+    width: 10%;
+}
+.td-input{
+    width: 100%;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgba(255, 205, 35, 1) 0%, rgba(223, 163, 30, 1) 41%, rgba(29, 161, 86, 1)) border-box;
+    border: 1px solid transparent;
+    height: auto;
+}
+table td{
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, rgba(255, 205, 35, 1) 0%, rgba(223, 163, 30, 1) 41%, rgba(29, 161, 86, 1)) border-box;
+    border: 4px solid transparent;
+    
+}
+.td-job{
+    width: 20%;
+}
+.td-healthinsurance{
+    width: 20%;
+}
+
+/* Section -1 */
